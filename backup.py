@@ -3,6 +3,7 @@ from datetime import datetime
 from pathlib import Path
 import asyncio
 import aiosqlite
+from typing import Optional
 from logger import setup_logger
 
 logger = setup_logger('backup')
