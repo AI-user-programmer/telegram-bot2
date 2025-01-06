@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "twa-aggregator"
+version = "0.1.0"
+description = ""
+authors = ["Your Name"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiogram = "^2.25.1"
+fastapi = "^0.68.1"
+uvicorn = "^0.15.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
